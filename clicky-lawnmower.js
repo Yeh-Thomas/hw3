@@ -1,6 +1,8 @@
 function setup() {
   createCanvas(400, 200);
   colorMode(HSB);
+  fill(255);
+  rect(0, 0, width, height-10);
 }
 
 var x = 0;
